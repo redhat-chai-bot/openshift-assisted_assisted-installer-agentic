@@ -3,3 +3,6 @@ config:
   MD013: false
   MD033: false
   MD041: false
+  # MD060 cannot express "padded cells with unpadded separator rows", a valid
+  # table style, so the rule is disabled.
+  MD060: false
